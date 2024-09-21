@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
-:root {
-  --color-main: #71c6dd;
+
+:root{
+  --color-main: #95d132;
   --color-main-light: #e1f6fb;
-  --color-dark: #3f4156;
-  --color-dark-medium: #51546e;
-  --color-dark-light: #696d97;
+  --color-dark: #2c5058;
+  --color-dark-medium: #8348ce;
+  --color-dark-light: #0c748d;
   --color-light: #e5e5e5;
-  --color-gray: #8b8b8b;
-  --color-light-gray: #b2bdbd;
+  --color-gray: #3c7ad4;
+  --color-light-gray: #f6f7f7;
   --color-bg: #2d2d39;
   --color-success: #5dd693;
   --color-error: #fc4b0b;
 }
+
 
 /*========== base styles ==========*/
 
@@ -99,6 +101,7 @@ a {
   color: var(--color-dark);
 }
 
+
 .btn:hover {
   opacity: 0.9;
 }
@@ -107,6 +110,11 @@ a {
   background-color: var(--color-dark-light);
   color: var(--color-light);
 }
+
+/* .btn--dark {
+  background-color: #0c748d;
+  color: var(--color-light);
+} */
 
 .btn > svg {
   fill: currentColor;
@@ -294,7 +302,7 @@ a {
 }
 
 .header__search > label {
-  background-color: var(--color-dark-medium);
+  background-color: var(--color-dark-light);
   padding: 1.3rem 1rem;
   display: flex;
   align-items: center;
@@ -303,7 +311,7 @@ a {
 }
 
 .header__search svg {
-  fill: var(--color-gray);
+  fill: var(--color-white);
   width: 2rem;
   height: 2rem;
   margin-left: 1rem;
@@ -438,7 +446,7 @@ a {
 .layout__boxHeader {
   display: flex;
   padding: 1.5rem;
-  background-color: var(--color-dark-light);
+  background-color: var(--color-white);
 }
 
 .layout__boxTitle {
@@ -737,7 +745,7 @@ a {
 }
 
 .activities__header h2 {
-  background-color: var(--color-dark-light);
+  background-color: var(--color-white);
   text-transform: uppercase;
   font-weight: 500;
   padding: 1rem 1.5rem;
